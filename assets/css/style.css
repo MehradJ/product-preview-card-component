@@ -51,11 +51,11 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 0.5rem;
+  margin: 1rem 0;
 }
 .current-price {
   color: var(--Green500);
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-family: Fraunces, sans-serif;
   font-weight: 700;
 }
@@ -98,6 +98,9 @@ p {
     display: flex;
     flex-direction: column;
     height: 100%;
+  }
+  .btn-card {
+    margin-bottom: 1rem;
   }
   picture {
     display: flex;
