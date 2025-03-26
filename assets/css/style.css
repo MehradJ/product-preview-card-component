@@ -12,12 +12,11 @@ body {
   background-color: var(--Cream);
   padding: 1rem;
   min-width: 300px;
-}
-main {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .card {
   background-color: var(--White);
   border-radius: 10px;
