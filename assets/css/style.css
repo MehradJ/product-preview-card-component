@@ -20,7 +20,7 @@ body {
 .card {
   background-color: var(--White);
   border-radius: 10px;
-  max-width: 36rem;
+  max-width: 37rem;
 }
 .card-info {
   margin: 1rem;
