@@ -29,8 +29,11 @@
 <body>
   <main>
     <div class="card">
-      <img src="assets/images/image-product-mobile.jpg"
-        alt="Chanel Perfume">
+      <picture>
+        <source srcset="assets/images/image-product-mobile.jpg" media="(max-width: 590px)">
+        <source srcset="assets/images/image-product-desktop.jpg" media="(min-width: 591px)">
+        <img class="card-img" src="assets/images/image-product-mobile.jpg" alt="Chanel Perfume">
+      </picture>
 
       <div class="card-info">
         <h2>Perfume</h2>
